@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Declaração do tipo de documento e idioma da página -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a viewport para garantir que a página seja exibida corretamente em dispositivos móveis -->
+    <title>Trabalho - Fundamentos da Programação Web</title>
+    <!-- Define o título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link para o arquivo de estilos CSS externo -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="sobremim.html">Sobre mim</a></li>
+                <li><a href="formacoes.html">Formações</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Cabeçalho da página com um menu de navegação -->
+
+    <main class="main">
+        <h1>Contatos</h1>
+        <!-- Título principal da seção de contatos -->
+        <div>
+            <img src="assets/perfil.jpeg" alt="Foto de Jonathan" class="eclipse">
+            <!-- Imagem de perfil com a classe "eclipse" para estilização -->
+        </div>
+        <p>Linkedin: <a href="https://br.linkedin.com/in/jonathan-stamczak-131944228" target="_blank">br.linkedin.com/in/jonathan-stamczak-131944228</a> <br>
+            E-mail: <a href="mailto:jonathanstamczak@gmail.com">jonathanstamczak@gmail.com</a></p>
+        <!-- Informações de contato com links para LinkedIn e e-mail -->
+
+        <!-- Formulário de Contato (Não funcional) -->
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <!-- Campo de entrada para o nome, obrigatório -->
+            <br>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <!-- Campo de entrada para o e-mail, obrigatório -->
+            <br>
+            <br>
+            <label for="mensagem">Deixe sua mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="3" required></textarea>
+            <!-- Área de texto para a mensagem, obrigatória -->
+            <br>
+            <button type="submit">Enviar</button>
+            <!-- Botão para enviar o formulário -->
+        </form>
+    </main>
+    <!-- Conteúdo principal da página -->
+
+    <footer>
+        <p id="autor">© 2024 Jonathan Stamczak</p>
+        <!-- Rodapé da página com o nome do autor e o ano -->
+    </footer>
+</body>
+
+</html>

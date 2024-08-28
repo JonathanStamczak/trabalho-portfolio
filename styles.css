@@ -1,0 +1,154 @@
+/* Estilos globais */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Navegação e rodapé */
+nav, footer {
+    background-color: #673AB7;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 20px auto;
+    width: 80%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00BCD4;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 80px;
+    flex: 1;
+}
+
+main.main {
+    margin: 0 auto;
+}
+
+main ul {
+    color: #7A1CAC;
+    text-align: left;
+    margin-left: 30%;
+}
+
+/* Títulos e parágrafos */
+h1 {
+    font-size: 2.5rem;
+    color: #2E073F;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #7A1CAC;
+}
+
+p#autor {
+    color: #fff;
+}
+
+/* Imagem de perfil */
+.eclipse {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Rodapé */
+footer {
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+/* Listas */
+ul.lista {
+    color: #7A1CAC;
+    list-style: square;
+}
+
+/* Banner */
+.banner {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-top: 1em;
+    display: block;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em;
+    color: #fff;
+    background-color: #7A1CAC;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00BCD4;
+}
